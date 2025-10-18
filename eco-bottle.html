@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生態瓶 Ecobottle：在玻璃裡打造自給自足的小宇宙</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Noto Sans TC', sans-serif; background-color: #FAFAF8; color: #374151; }
+    .nav-link { transition: color .2s, border-color .2s; }
+    .nav-link.active { color:#2563EB; border-bottom-color:#2563EB; }
+    .nav-link:not(.active) { border-bottom-color: transparent; }
+  </style>
+</head>
+<body class="antialiased">
+  <header id="header" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+    <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="#" class="flex items-center">
+        <span class="text-2xl font-bold text-emerald-600">Ecobottle</span>
+        <span class="ml-2 text-gray-700">生態瓶</span>
+      </a>
+      <div class="hidden md:flex space-x-6 items-center">
+        <a href="#intro" class="nav-link text-gray-600 hover:text-emerald-600 border-b-2 pb-1">什麼是生態瓶</a>
+        <a href="#materials" class="nav-link text-gray-600 hover:text-emerald-600 border-b-2 pb-1">材料工具</a>
+        <a href="#steps" class="nav-link text-gray-600 hover:text-emerald-600 border-b-2 pb-1">製作步驟</a>
+        <a href="#care" class="nav-link text-gray-600 hover:text-emerald-600 border-b-2 pb-1">照顧與維護</a>
+        <a href="#faq" class="nav-link text-gray-600 hover:text-emerald-600 border-b-2 pb-1">常見問題</a>
+        <a href="ODF.html" class="text-gray-500 hover:text-blue-600">ODF 專區</a>
+      </div>
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500">
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700"></div>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+      <a href="#intro" class="block py-2 text-gray-700 hover:bg-emerald-50 rounded-md">什麼是生態瓶</a>
+      <a href="#materials" class="block py-2 text-gray-700 hover:bg-emerald-50 rounded-md">材料工具</a>
+      <a href="#steps" class="block py-2 text-gray-700 hover:bg-emerald-50 rounded-md">製作步驟</a>
+      <a href="#care" class="block py-2 text-gray-700 hover:bg-emerald-50 rounded-md">照顧與維護</a>
+      <a href="#faq" class="block py-2 text-gray-700 hover:bg-emerald-50 rounded-md">常見問題</a>
+      <a href="ODF.html" class="block py-2 text-gray-600 hover:bg-gray-50 rounded-md">ODF 專區</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="py-20 md:py-28 bg-gradient-to-b from-emerald-50 to-emerald-100">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 mb-4 leading-tight">把自然裝進瓶裡</h1>
+        <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">生態瓶是一個近乎自給自足的微型生態系。用簡單材料，就能打造綠意盎然的小宇宙，適合課堂教學、居家療癒與科學觀察。</p>
+        <a href="#intro" class="mt-8 inline-block bg-emerald-600 text-white font-bold py-3 px-8 rounded-full hover:bg-emerald-700 transition duration-300 transform hover:scale-105">開始了解</a>
+      </div>
+    </section>
+
+    <section id="intro" class="py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">什麼是生態瓶？</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">生態瓶（Ecosphere/Terrarium）是以玻璃容器封閉或半封閉的微型生態系。水分在瓶內循環、植物透過光合作用供氧、微生物分解有機質，形成能自行平衡的環境。</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <div class="text-4xl mb-4 text-emerald-600">♻️</div>
+            <h3 class="text-2xl font-bold mb-2">自我循環</h3>
+            <p class="text-gray-600">水循環與營養循環在瓶中進行，維護需求低，長期穩定。</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <div class="text-4xl mb-4 text-emerald-600">🌿</div>
+            <h3 class="text-2xl font-bold mb-2">療癒教具</h3>
+            <p class="text-gray-600">兼具裝飾與科學教學價值，適合居家、教室與辦公空間。</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+            <div class="text-4xl mb-4 text-emerald-600">🌞</div>
+            <h3 class="text-2xl font-bold mb-2">低維護</h3>
+            <p class="text-gray-600">只需散射光與偶爾修剪，大多數植物能良好生長。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="materials" class="py-16 md:py-24 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">材料與工具</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">準備下列材料即可開始。可依容器大小與風格彈性調整。</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">容器</h3>
+            <p class="text-gray-600">透明玻璃瓶（帶蓋或開口）、魚缸、罐子。建議選用口徑較大、方便操作。</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">排水層</h3>
+            <p class="text-gray-600">小石頭或陶粒，避免積水浸根。</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">隔離層</h3>
+            <p class="text-gray-600">活性碳與不織布，抑制異味並隔絕土壤。</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">介質/基質</h3>
+            <p class="text-gray-600">泥炭土、栽培土或苔蘚基質，依植物選擇。</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">植物</h3>
+            <p class="text-gray-600">適合潮濕與散射光的植物：苔蘚、蕨類、空氣鳳梨、小型觀葉等。</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="font-semibold text-lg mb-2">工具</h3>
+            <p class="text-gray-600">長鑷子、竹筷、剪刀、噴霧瓶、小鏟、漏斗。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps" class="py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">製作步驟（10~20 分鐘）</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">依序堆疊層次，打造透氣、排水良好的微型環境。</p>
+        </div>
+        <ol class="relative border-s-2 border-emerald-200 max-w-3xl mx-auto">
+          <li class="mb-10 ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">1</span>
+            <h3 class="font-semibold">清潔與規劃</h3>
+            <p class="text-gray-600">清洗容器並擦乾。預想地形與植物配置。</p>
+          </li>
+          <li class="mb-10 ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">2</span>
+            <h3 class="font-semibold">鋪設排水層</h3>
+            <p class="text-gray-600">倒入小石頭或陶粒 1~2 公分高，避免根部浸水。</p>
+          </li>
+          <li class="mb-10 ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">3</span>
+            <h3 class="font-semibold">加入活性碳與隔離層</h3>
+            <p class="text-gray-600">薄鋪活性碳，上層覆蓋不織布，保持水質與層次穩定。</p>
+          </li>
+          <li class="mb-10 ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">4</span>
+            <h3 class="font-semibold">填入基質並塑形</h3>
+            <p class="text-gray-600">加入 3~6 公分厚的栽培介質，可堆出坡地或階梯造型。</p>
+          </li>
+          <li class="mb-10 ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">5</span>
+            <h3 class="font-semibold">栽種與固定</h3>
+            <p class="text-gray-600">用鑷子輕放植物，根部覆土並稍加壓實，可搭配枯木與石材裝飾。</p>
+          </li>
+          <li class="ms-6">
+            <span class="absolute -start-3 flex items-center justify-center w-6 h-6 bg-emerald-600 rounded-full ring-8 ring-emerald-100 text-white text-xs">6</span>
+            <h3 class="font-semibold">噴霧與收尾</h3>
+            <p class="text-gray-600">用噴霧瓶少量補水，擦拭玻璃，放置於散射光位置觀察穩定度。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="care" class="py-16 md:py-24 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">照顧與維護</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">生態瓶維護重點：光、溼、溫、通風與修剪。</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold mb-2">光照</h3>
+            <p class="text-gray-600">避免直射強光，放在明亮散射光處，每日 6–10 小時。夏季需遠離西曬窗邊。</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold mb-2">水分</h3>
+            <p class="text-gray-600">壁面有少許霧氣為佳；若大量凝結水滴，打開通風並減少補水。</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold mb-2">溫度</h3>
+            <p class="text-gray-600">多數觀葉植物偏好 18–28°C，避免冷熱驟變。</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold mb-2">修剪與清潔</h3>
+            <p class="text-gray-600">定期修剪過長葉片，清除落葉，維持通風與美觀。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-16 md:py-24">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">常見問題</h2>
+          <p class="mt-4 text-lg text-gray-600">快速解答入門疑惑。</p>
+        </div>
+
+        <div class="space-y-4">
+          <details class="bg-white p-5 rounded-lg shadow group">
+            <summary class="font-semibold cursor-pointer list-none flex items-center justify-between">
+              生態瓶需要澆水嗎？
+              <span class="text-emerald-600 group-open:rotate-180 transition">⌄</span>
+            </summary>
+            <p class="text-gray-600 mt-3">密封型幾乎不需補水；半開放型視蒸散與環境，每 2–4 週少量噴霧一次。以玻璃壁面微霧為判斷依據。</p>
+          </details>
+
+          <details class="bg-white p-5 rounded-lg shadow group">
+            <summary class="font-semibold cursor-pointer list-none flex items-center justify-between">
+              為什麼玻璃內壁常起霧？
+              <span class="text-emerald-600 group-open:rotate-180 transition">⌄</span>
+            </summary>
+            <p class="text-gray-600 mt-3">是正常的水循環現象。若霧氣過重持續不退，代表水量偏多或溫差大，可短暫開蓋通風並移至較穩定處。</p>
+          </details>
+
+          <details class="bg-white p-5 rounded-lg shadow group">
+            <summary class="font-semibold cursor-pointer list-none flex items-center justify-between">
+              可以放昆蟲或動物嗎？
+              <span class="text-emerald-600 group-open:rotate-180 transition">⌄</span>
+            </summary>
+            <p class="text-gray-600 mt-3">不建議在密閉環境中飼養動物。可觀察微生物或等足類，但仍需注意倫理與物種需求。</p>
+          </details>
+
+          <details class="bg-white p-5 rounded-lg shadow group">
+            <summary class="font-semibold cursor-pointer list-none flex items-center justify-between">
+              要選封閉還是開放？
+              <span class="text-emerald-600 group-open:rotate-180 transition">⌄</span>
+            </summary>
+            <p class="text-gray-600 mt-3">封閉型維護低但需精準水量與光線；開放型較彈性，但需較頻繁補水。初學者可先做半開放型。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-12 bg-emerald-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">靈感畫廊</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <img class="w-full h-56 object-cover rounded-lg" alt="terrarium" src="https://images.unsplash.com/photo-1545241047-6083d6457a7b?q=80&w=1200&auto=format&fit=crop"/>
+          <img class="w-full h-56 object-cover rounded-lg" alt="moss" src="https://images.unsplash.com/photo-1603691727739-283745c1c419?q=80&w=1200&auto=format&fit=crop"/>
+          <img class="w-full h-56 object-cover rounded-lg" alt="ferns" src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?q=80&w=1200&auto=format&fit=crop"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2024 Ecobottle 生態瓶入門指南。僅作教育與展示用途。</p>
+      <p class="text-sm text-gray-400 mt-2">設計語彙：Tailwind CSS。圖像來源：Unsplash。</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+      // Smooth scroll with header offset
+      document.querySelectorAll('header a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+          const targetId = this.getAttribute('href');
+          if (!targetId || targetId === '#') return;
+          e.preventDefault();
+          const target = document.querySelector(targetId);
+          if (target) {
+            const headerOffset = document.getElementById('header').offsetHeight;
+            const elementPosition = target.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+          }
+          if (!mobileMenu.classList.contains('hidden')) mobileMenu.classList.add('hidden');
+        });
+      });
+
+      // Active link highlight on scroll
+      const sections = document.querySelectorAll('main section');
+      const headerNavLinks = document.querySelectorAll('.md\\:flex a.nav-link');
+      function onScroll() {
+        let current = '';
+        const headerHeight = document.getElementById('header').offsetHeight;
+        sections.forEach(section => {
+          if (window.scrollY >= section.offsetTop - headerHeight - 20) {
+            current = section.getAttribute('id');
+          }
+        });
+        headerNavLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+        });
+      }
+      window.addEventListener('scroll', onScroll);
+      onScroll();
+    });
+  </script>
+</body>
+</html>
