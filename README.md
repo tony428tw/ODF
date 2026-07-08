@@ -15,26 +15,7 @@
 - ODF 校園推廣影片與完整教材
 
 ## 預覽網站
-
-這是純靜態網站，不需安裝套件或建置工具。
-
-```bash
-python -m http.server 4173
-```
-
-啟動後開啟 `http://127.0.0.1:4173/`，也可以直接開啟 `index.html` 瀏覽。
-
-## 專案結構
-
-```text
-.
-├── index.html          # 網站內容與語意結構
-├── styles.css          # 視覺設計與響應式版面
-├── script.js           # 行動選單及頁籤互動
-├── images/             # Logo、網站圖片與 README 封面
-├── ODF介紹與應用.pdf   # 完整推廣教材
-└── 朝陽校園照片/       # 網站使用的校園影像
-```
+- [網站預覽連結](https://www-api.moda.gov.tw/File/Get/moda/zh-tw/mi8j83yBxg7gRfF)
 
 ## 設計與功能
 
